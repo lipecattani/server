@@ -10,21 +10,21 @@
             "carga": 5000,
             "massa": 10000,
             "eixos": 2,
-            "cpf_motorista": "11199988877755"
+            "cpf_motorista": "11199988877"
         },
         {
             "placa": "ABC-1234",
             "carga": 5000,
             "massa": 10000,
             "eixos": 2,
-            "cpf_motorista": "11199988877755"
+            "cpf_motorista": "11199988877"
         },
         {
             "placa": "ABC-1234",
             "carga": 5000,
             "massa": 10000,
             "eixos": 2,
-            "cpf_motorista": "11199988877755"
+            "cpf_motorista": "11199988877"
         }
     ]
 }
@@ -41,7 +41,7 @@
             "carga": 5000,
             "massa": 10000,
             "eixos": 2,
-            "cpf_motorista": "11199988877755"
+            "cpf_motorista": "11199988877"
         },
         {
             "posicao_fila": 2,
@@ -49,7 +49,7 @@
             "carga": 5000,
             "massa": 10000,
             "eixos": 2,
-            "cpf_motorista": "11199988877755"
+            "cpf_motorista": "11199988877"
         },
         {
             "posicao_fila": 3,
@@ -57,26 +57,64 @@
             "carga": 5000,
             "massa": 10000,
             "eixos": 2,
-            "cpf_motorista": "11199988877755"
+            "cpf_motorista": "11199988877"
         }
     ],
 
     "cilos":[
         {
             "id_cilo": 1,
+            "classificacao": "S1",
             "tipo_grao": "soja",
             "capacidade_total": 5000,
             "capacidade_atual": 1000
         }
         {
             "id_cilo": 2,
-            "tipo_grao": "milho",
+            "classificacao": "S2",
+            "tipo_grao": "soja",
             "capacidade_total": 5000,
             "capacidade_atual": 1000
         }
         {
             "id_cilo": 3,
-            "tipo_grao": "trigo",
+            "classificacao": "C1",
+            "tipo_grao": "soja",
+            "capacidade_total": 5000,
+            "capacidade_atual": 1000
+        }
+        {
+            "id_cilo": 4,
+            "classificacao": "C2",
+            "tipo_grao": "soja",
+            "capacidade_total": 5000,
+            "capacidade_atual": 1000
+        }
+        {
+            "id_cilo": 5,
+            "classificacao": "S1",
+            "tipo_grao": "milho",
+            "capacidade_total": 5000,
+            "capacidade_atual": 1000
+        }
+        {
+            "id_cilo": 6,
+            "classificacao": "S2",
+            "tipo_grao": "milho",
+            "capacidade_total": 5000,
+            "capacidade_atual": 1000
+        }
+        {
+            "id_cilo": 7,
+            "classificacao": "C1",
+            "tipo_grao": "milho",
+            "capacidade_total": 5000,
+            "capacidade_atual": 1000
+        }
+        {
+            "id_cilo": 8,
+            "classificacao": "C2",
+            "tipo_grao": "milho",
             "capacidade_total": 5000,
             "capacidade_atual": 1000
         }
