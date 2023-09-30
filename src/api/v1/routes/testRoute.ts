@@ -7,6 +7,6 @@ const testMiddleware = new TestMiddleware();
 
 const testRouter = express.Router();
 
-testRouter.get('/example', testMiddleware.test, testController.test);
+testRouter.post('/example', (req: Request, res: Response) => {});
 
 export default testRouter;

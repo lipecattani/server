@@ -4,6 +4,7 @@ import cors from 'cors';
 
 // Import routes
 import testRouter from './routes/testRoute';
+import authRouter from './routes/authRoutes';
 
 // Informs if server is running on devmode or server mode
 if (process.env.NODE_ENV === 'development') {
@@ -37,6 +38,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 // Append routes to the server
+app.use('/api/v1/auth', authRouter);
 
 const server = app.listen(PORT, () => {
   console.log(

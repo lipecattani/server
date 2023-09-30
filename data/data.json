@@ -1,0 +1,85 @@
+{
+    "carga_total": 15000,
+    "massa_total": 30000,
+    "data_entrega": "2019-12-12/12:00:00",
+    "classificacao": "C1",
+    "tipo": "soja",
+    "veiculos": [
+        {
+            "placa": "ABC-1234",
+            "carga": 5000,
+            "massa": 10000,
+            "eixos": 2,
+            "cpf_motorista": "11199988877755"
+        },
+        {
+            "placa": "ABC-1234",
+            "carga": 5000,
+            "massa": 10000,
+            "eixos": 2,
+            "cpf_motorista": "11199988877755"
+        },
+        {
+            "placa": "ABC-1234",
+            "carga": 5000,
+            "massa": 10000,
+            "eixos": 2,
+            "cpf_motorista": "11199988877755"
+        }
+    ]
+}
+
+
+{
+
+
+    "id": 1,
+    "veiculos_fila":[
+        {
+            "posicao_fila": 1,
+            "placa": "ABC-1234",
+            "carga": 5000,
+            "massa": 10000,
+            "eixos": 2,
+            "cpf_motorista": "11199988877755"
+        },
+        {
+            "posicao_fila": 2,
+            "placa": "ABC-1234",
+            "carga": 5000,
+            "massa": 10000,
+            "eixos": 2,
+            "cpf_motorista": "11199988877755"
+        },
+        {
+            "posicao_fila": 3,
+            "placa": "ABC-1234",
+            "carga": 5000,
+            "massa": 10000,
+            "eixos": 2,
+            "cpf_motorista": "11199988877755"
+        }
+    ],
+
+    "cilos":[
+        {
+            "id_cilo": 1,
+            "tipo_grao": "soja",
+            "capacidade_total": 5000,
+            "capacidade_atual": 1000
+        }
+        {
+            "id_cilo": 2,
+            "tipo_grao": "milho",
+            "capacidade_total": 5000,
+            "capacidade_atual": 1000
+        }
+        {
+            "id_cilo": 3,
+            "tipo_grao": "trigo",
+            "capacidade_total": 5000,
+            "capacidade_atual": 1000
+        }
+    ]
+
+}
